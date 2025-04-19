@@ -1,0 +1,82 @@
+/* Estilizando o corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalhos */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Imagem de perfil */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Contato */
+p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+p img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/* Ajustando imagens no geral */
+img {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 100px; /* Tamanho máximo das imagens */
+    height: auto; /* Proporção mantida */
+}
+
+
+/* Estilo específico para ícones em parágrafos */
+p img {
+    display: inline-block; /* Mantém os ícones ao lado dos textos */
+    vertical-align: middle; /* Alinha com o texto */
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    max-width: 20px; /* Reduz tamanho dos ícones */
+}
+
+
+/* Ajustando imagens no geral */
+img {
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 100px; /* Tamanho máximo das imagens */
+    height: auto; /* Proporção mantida */
+}
+
+
+/* Estilo para a caixa de texto */
+.text-box {
+    max-width: 800px; /* Define a largura máxima da caixa */
+    margin: 20px auto; /* Centraliza a caixa na tela */
+    padding: 20px; /* Adiciona espaço interno */
+    background-color: #ffffff; /* Fundo branco */
+    border: 1px solid #ddd; /* Borda discreta */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
